@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Neubrutalism Docs',
-  tagline: 'A Very Good Project created by Very Good CLI.',
+  tagline: 'A Very Good Project - By Deepraj Baidya',
   url: 'https://neubrutalism-docs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'my-org', // Usually your GitHub org/user name.
+  organizationName: 'deepraj02', // Usually your GitHub org/user name.
   projectName: 'neubrutalism_docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/my-org/neubrutalism_docs/tree/main/',
+            'https://github.com/deepraj02/neubrutalism_docssite',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,7 +53,7 @@ const config = {
         title: 'Neubrutalism Docs',
         logo: {
           alt: 'Neubrutalism Docs Logo',
-          src: 'img/logo.svg',
+          src: 'img/Neu2.png',
         },
         items: [
           {
@@ -63,7 +63,7 @@ const config = {
             label: 'Overview',
           },
           {
-            href: 'https://github.com/my-org/neubrutalism_docs',
+            href: 'https://github.com/deepraj02/',
             position: 'right',
             className: 'navbar-github-icon',
             'aria-label': 'GitHub repository',
@@ -86,7 +86,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                href: '#',
+                href: 'https://hashnode.com/@theLocalDev',
               },
             ],
           },
@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/my-org/neubrutalism_docs',
+                href: 'https://github.com/deepraj02/neubrutalism_docssite',
               },
             ],
           },

@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{"A Very  Good Project - By Deepraj Baidya"}</p>
         <HomepageCTA />
         <HomepageHeroImage />
       </div>
@@ -46,11 +46,10 @@ function HomepageCTA() {
 }
 
 function HomepageHeroImage() {
-  const { colorMode } = useColorMode();
   return (
     <img
       className={clsx(styles.heroImage)}
-      src={colorMode == 'dark' ? 'img/hero_dark.svg' : 'img/hero.svg'}
+      src={'img/neu.png'}
       alt="Hero"
       width="720"
     />
@@ -65,28 +64,40 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Pillar 1',
+    title: 'What is Neubrutalism?',
     Svg: require('@site/static/img/pillar1.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Proin gravida
-        hendrerit lectus.
+        Neubrutalism UI design is a popular style that has emerged in recent
+        years, characterized by its use of simple, functional elements and a
+        stripped-down aesthetic. It's an evolution of the Brutalist design
+        movement that emerged in the 1950s, but with a more refined and
+        contemporary feel. Neubrutalism emphasizes minimalism, functionality,
+        and the use of raw materials like concrete and steel. It's a design
+        philosophy that has been embraced by many designers and is particularly
+        popular in the tech industry.
       </>
     ),
   },
   {
-    title: 'Pillar 2',
+    title: 'NeuBrutalism for Flutter',
     Svg: require('@site/static/img/pillar2.svg').default,
     description: (
       <>
-        Quis hendrerit dolor magna eget est. Urna nunc id cursus metus aliquam.
-        Id faucibus nisl tincidunt eget nullam non nisi est sit.
+        "Neubrutalism UI is a comprehensive UI kit for Flutter that incorporates
+        the principles of Neubrutalism design. With this package, you can easily
+        add beautiful and functional UI components to your Flutter app in a
+        style that emphasizes simplicity and minimalism. The package includes a
+        variety of UI components such as buttons, a Search Bar, a Container, and
+        more, each designed with a subtle shadow and rounded corners that add
+        depth and texture to your app. You can customize the appearance of each
+        component to fit the specific needs of your app, including changing the
+        border radius, depth, color etc.
       </>
     ),
   },
   {
-    title: 'Pillar 3',
+    title: 'Neubrutalism Web',
     Svg: require('@site/static/img/pillar3.svg').default,
     description: (
       <>
