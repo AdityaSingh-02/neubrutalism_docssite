@@ -38,7 +38,7 @@ export default function Home(): JSX.Element {
 function HomepageCTA() {
   return (
     <div className={styles.width}>
-      <Link className="button button--primary button--lg" to="/docs/overview">
+      <Link className="button button--primary button--lg" to="https://github.com/deepraj02/neubrutalism_ui/blob/master/README.md">
         Get Started
       </Link>
     </div>

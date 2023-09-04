@@ -63,6 +63,12 @@ const config = {
             label: 'Overview',
           },
           {
+            type: 'doc',
+            docId: 'version2',
+            position: 'left',
+            label: 'Migration from v1',
+          },
+          {
             href: 'https://github.com/deepraj02/',
             position: 'right',
             className: 'navbar-github-icon',
@@ -77,7 +83,7 @@ const config = {
             items: [
               {
                 label: 'Overview',
-                to: '/docs/overview',
+                to: 'https://github.com/deepraj02/neubrutalism_ui/blob/master/README.md',
               },
             ],
           },
